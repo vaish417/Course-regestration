@@ -1,0 +1,80 @@
+*
+{
+	margin:0;
+	padding: 0;
+}
+body{
+	background-color: #efefef;
+	font-family: sans-serif;
+	background: url(projectbg1.jpg) no-repeat;
+	background-size: cover;
+}
+.Contact-box
+{
+	width: 400px;
+	padding: 35px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background: black;
+	text-align: center;
+	color: white;
+}
+form
+{
+	margin: 35px;
+}
+.input-field
+{
+	width: 250px;
+	height: 40px;
+	margin-top: 20px;
+	padding-left: 10px;
+	border : 2px solid #3498db;
+	border-radius: 14px;
+	outline: none;
+}
+.input-field:focus{
+	width: 300px;
+	border-color: #2ecc71;
+}
+.textarea-field
+{
+	height: 120px;
+	padding-top: 15px;
+	padding-left: 10px;
+}
+.btn
+{
+	border-radius: 20px;
+	color:  #fff;
+	margin-top: 18px;
+	padding: 10px;
+	background-color: #47c35a;
+	font-size: 12px;
+	border: none;
+	cursor: pointer;
+}
+.error{
+	font-size: 14px;
+	color: red;
+	position: relative;
+	top: 3px;
+}
+.successMessage{
+	font-size: smaller;
+	color: green;
+	text-align: center;
+	background-color: transparent;
+	position: relative;
+	top: 5px;
+}
+.errorMessage{
+	font-size: smaller;
+	color: green;
+	text-align: center;
+	background-color: transparent;
+	position: relative;
+	top: 5px;
+}
